@@ -1,0 +1,2 @@
+# Dendrite-Cross-Attention-for-High-dose-rate-Brachytherapy-Distribution-Planning
+This repo contains the code for predicting radiation dose maps for HDR-BT using DiCA-UNet model architecture. This problem is part of an effort to optimize and predict the distribution of radiation dose for cervical cancer treatments, allowing clinicians to personalize therapy based on patient anatomy while ensuring safety for surrounding organs.
