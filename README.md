@@ -39,7 +39,35 @@ The dataset used for this project contains CT scans of patients undergoing brach
 - **Applicator Segmentation:** The applicator's position within the body for delivering the radiation.
 - **Dose Map:** Ground truth radiation dose delivered to the tumor and surrounding areas.
 
-The dataset is divided into training and validation sets, with an 80:20 split.
+- Here's the revised section for the README with a single data directory:
+
+---
+
+### Dataset Structure
+
+The dataset is organized into a single directory containing multiple subdirectories for individual cases. Each case includes several NIfTI files corresponding to different imaging modalities and segmentations. The directory structure is as follows:
+
+```
+/data 
+ │
+ ├───1785 
+ │      └───ct.nii.gz
+ │      └───ctv.nii.gz
+ │      └───bladder.nii.gz
+ │      └───rectum.nii.gz
+ │      └───dose.nii.gz
+ │
+ ├───1759
+ │      └───ct.nii.gz
+ │      └───ctv.nii.gz
+ │      └───bladder.nii.gz
+ │      └───rectum.nii.gz
+ │      └───dose.nii.gz
+ │
+ ├───...
+```
+
+Please ensure that the Patient ID, which is a subfolder of the data, is unique for each patient. The dataset is divided into training and validation sets, with an 80:20 split.
 
 ---
 
