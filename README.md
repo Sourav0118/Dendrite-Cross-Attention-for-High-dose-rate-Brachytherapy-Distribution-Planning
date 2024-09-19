@@ -30,6 +30,8 @@ The goal is to develop a deep learning model that can predict the dose distribut
 
 The dataset used for this project contains CT scans of patients undergoing brachytherapy treatment. Each patient case includes:
 
+![alt text](https://github.com/Sourav0118/Dendrite-Cross-Attention-for-High-dose-rate-Brachytherapy-Distribution-Planning/blob/main/eccvw.png?raw=True)
+
 - **CT Scan (CT):** Imaging data of the patient's anatomy.
 - **CTV Segmentation:** Clinical Target Volume, indicating the tumor area.
 - **Bladder Segmentation:** Bladder area segmentation.
@@ -43,7 +45,7 @@ The dataset is divided into training and validation sets, with an 80:20 split.
 
 ## Model Architecture
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Sourav0118/Dendrite-Cross-Attention-for-High-dose-rate-Brachytherapy-Distribution-Planning/blob/main/Multi-Unet-with-scans.png?raw=True)
 
 The model used consists of two main components:
 
@@ -129,6 +131,7 @@ If you want to track experiments for team-based projects, you can specify a Wand
 ## Model Evaluation
 
 During training, the model is evaluated based on the weighted average of Masked Root Mean Squared Error (masked RMSE) between the predicted dose map and the ground truth dose map over masked regions of CTV, bladder, rectum, and applicator. The best-performing model is saved based on validation loss.
+
 ---
 
 ## Contribution and Issues
