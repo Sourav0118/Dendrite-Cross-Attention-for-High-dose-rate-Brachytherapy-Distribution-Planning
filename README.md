@@ -1,4 +1,4 @@
-# Dose Prediction Using 3D U-Net and Feature Extraction
+# Dose Prediction Using DiCA-UNet for internal beam radiation tharepy
 
 This repository contains the code for predicting radiation dose maps for High-Dose Rate (HDR) Brachytherapy using a DiCA-UNet architecture with a feature extraction approach. This problem is part of an effort to optimize and predict the distribution of radiation dose for cervical cancer treatments, allowing clinicians to personalize therapy based on patient anatomy while ensuring safety for surrounding organs.
 
