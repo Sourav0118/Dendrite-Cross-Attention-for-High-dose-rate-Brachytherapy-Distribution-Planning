@@ -1,10 +1,13 @@
 # Dose Prediction Using DiCA-UNet for internal beam radiation tharepy
 
-This repository contains the code for predicting radiation dose maps for High-Dose Rate (HDR) Brachytherapy using a DiCA-UNet architecture with a feature extraction approach. This problem is part of an effort to optimize and predict the distribution of radiation dose for cervical cancer treatments, allowing clinicians to personalize therapy based on patient anatomy while ensuring safety for surrounding organs.
+This repository contains the code for predicting radiation dose maps for High-Dose Rate (HDR) Brachytherapy using a DiCA-UNet architecture with a feature extraction approach. This problem is part of an effort to optimize and predict the distribution of radiation dose for cervical cancer treatments, allowing clinicians to personalize therapy based on patient anatomy while ensuring safety for surrounding organs. This repo has the official implementation of the DiCA-UNet architecture proposed in - 
+
+>#### Title: [Dendrite Cross Attention for High Dose Rate Brachytherapy Distribution Planning](https://github.com/Sourav0118/Dendrite-Cross-Attention-for-High-dose-rate-Brachytherapy-Distribution-Planning) (To Be Updated!)
+> ##### Authors: [Souarv Saini](https://scholar.google.com/citations?hl=en&user=r_NVq3IAAAAJ&view_op=list_works&gmla=AOAOcb2PwAT-WhcOFo33z3wArFzRwQYnAWvt8sY8tBA9ASJ4pVJOY9nFRY7D0TPjY698ITJHugLs3-oDgY6wiTAHgGjX_JKJ9jIZ9656K-Sx5lhngQS2gmYTUNs21Whmqloc0CaJQJc), [Zhen Li](https://orcid.org/0000-0002-3769-8612), [Xiaofeng Liu](https://scholar.google.com/citations?user=VighnTUAAAAJ&hl=en)
 
 ---
 
-## Problem Description
+## Task Description
 
 In High-Dose-Rate (HDR) Brachytherapy, radiation is delivered directly to the tumor site using various types of applicators. These applicators can vary in shape and design, making dose distribution prediction a complex task. Precise prediction of the radiation dose distribution is critical to ensure that the tumor receives the required dose while minimizing exposure to adjacent organs such as the bladder and rectum.
 
@@ -157,6 +160,12 @@ If you want to track experiments for team-based projects, you can specify a Wand
 ## Model Evaluation
 
 During training, the model is evaluated based on the weighted average of Masked Root Mean Squared Error (masked RMSE) between the predicted dose map and the ground truth dose map over masked regions of CTV, bladder, rectum, and applicator. The best-performing model is saved based on validation loss.
+
+## Citations
+
+```
+to be updated.
+```
 
 ---
 
