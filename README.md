@@ -2,7 +2,7 @@
 
 This repository contains the code for predicting radiation dose maps for High-Dose Rate (HDR) Brachytherapy using a DiCA-UNet architecture with a feature extraction approach. This problem is part of an effort to optimize and predict the distribution of radiation dose for cervical cancer treatments, allowing clinicians to personalize therapy based on patient anatomy while ensuring safety for surrounding organs. This repo has the official implementation of the DiCA-UNet architecture proposed in - 
 
->#### Title: [High-dose-rate Brachytherapy Planning with Dendrite Cross-Attention UNet](https://github.com/Sourav0118/Dendrite-Cross-Attention-for-High-dose-rate-Brachytherapy-Distribution-Planning) (To Be Updated!) [Journal at SPIE Medical Imaging 2024]
+>#### Title: [High-dose-rate Brachytherapy Planning with Dendrite Cross-Attention UNet](https://spie.org/medical-imaging/presentation/High-dose-rate-brachytherapy-planning-with-dendrite-cross-attention-UNet/13408-83) (To Be Updated!) [Journal at SPIE Medical Imaging 2024]
 > ##### Authors: [Souarv Saini](https://scholar.google.com/citations?hl=en&user=r_NVq3IAAAAJ&view_op=list_works&gmla=AOAOcb2PwAT-WhcOFo33z3wArFzRwQYnAWvt8sY8tBA9ASJ4pVJOY9nFRY7D0TPjY698ITJHugLs3-oDgY6wiTAHgGjX_JKJ9jIZ9656K-Sx5lhngQS2gmYTUNs21Whmqloc0CaJQJc), [Zhen Li](https://orcid.org/0000-0002-3769-8612), [Xiaofeng Liu](https://scholar.google.com/citations?user=VighnTUAAAAJ&hl=en)
 
 ---
